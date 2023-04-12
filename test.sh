@@ -1,4 +1,8 @@
 token="input your token here"
+in here u also can use read
+
+read -p "Input token" token # >> like this
+
 
 curl https://api.openai.com/v1/chat/completions \
   -H "Content-Type: application/json" \
